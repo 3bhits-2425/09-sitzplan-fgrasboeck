@@ -25,7 +25,15 @@ public class AudioMenue : MonoBehaviour
     public void PlayAudio()
     {
         // Starte die Audiowiedergabe
-        myAudioSource.Play();
+       // myAudioSource.Play();
+       FindAnyObjectByType<AudioManager>().Play("09-mySound-fgrasboeck");
+        /*
+         * langform des obigen Aufrufs
+         * AudioManager myAudioManager = FindAnyObjectByType<AudioManager>();
+         * myAudioManager.Play("09-mySound-fgrasboeck");
+         * 
+         *
+         */
     }
 
     public void StopAudio()
@@ -36,7 +44,8 @@ public class AudioMenue : MonoBehaviour
     public void PauseAudio()
     {
         // Pausiere die Audiowiedergabe
-        myAudioSource.Pause();
+        //myAudioSource.Pause();
+        FindAnyObjectByType<AudioManager>().Pause("09-mySound-fgrasboeck");
     }
     public void PlayPauseAudio()
     {
