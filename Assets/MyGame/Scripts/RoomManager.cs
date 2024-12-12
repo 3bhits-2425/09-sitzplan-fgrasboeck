@@ -26,14 +26,9 @@ public class RoomManager : MonoBehaviour
                 // Sessel platzieren
                 Transform pos1 = table.transform.Find("pos1");
                 Transform pos2 = table.transform.Find("pos2");
-                if (pos1 != null)
-                {
-                    Instantiate(chairPrefab, pos1.position, pos1.rotation, table.transform);
-                }
-                if (pos2 != null)
-                {
-                    Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
-                }
+                GameObject rightChair = Instantiate(chairPrefab, pos1.position, Quaternion.Euler(0,90,0), transform);
+                GameObject leftChair = Instantiate(chairPrefab, pos2.position, Quaternion.Euler(0,90,0), transform);
+               
             }
 
 
