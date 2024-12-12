@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RoomManager : MonoBehaviour
 {
-    
+
     [SerializeField] private TableLayoutData tabelLayout;  // Ref zu TableLayout ScriptableObject
     [SerializeField] private StudentData[] students;
     [SerializeField] private GameObject tablePrefab; // Prefab für Tische
@@ -22,8 +22,18 @@ public class RoomManager : MonoBehaviour
                 // Tische Plazieren
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
 
-                // Sessel plazieren
-                Transform[]
+                
+                // Sessel platzieren
+                Transform pos1 = table.transform.Find("pos1");
+                Transform pos2 = table.transform.Find("pos2");
+                if (pos1 != null)
+                {
+                    Instantiate(chairPrefab, pos1.position, pos1.rotation, table.transform);
+                }
+                if (pos2 != null)
+                {
+                    Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
+                }
             }
 
 
@@ -32,6 +42,6 @@ public class RoomManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
