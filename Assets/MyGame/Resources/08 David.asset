@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddbf00c30060be640b4f7b67f0f60f1d, type: 3}
-  m_Name: Medine
+  m_Name: 08 David
   m_EditorClassIdentifier: 
-  studentName: 
+  studentName: David Gildinger
   eyeColor: {r: 0, g: 0, b: 0, a: 0}
-  studentImage: {fileID: 0}
-  studentClip: {fileID: 0}
+  studentImage: {fileID: 21300000, guid: bf7b78125bedb124b938f591c5a2f6c9, type: 3}
+  studentClip: {fileID: 8300000, guid: cbbbe3ad92e4b8d4abfb2954370e5fd5, type: 3}

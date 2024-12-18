@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddbf00c30060be640b4f7b67f0f60f1d, type: 3}
-  m_Name: Georg
+  m_Name: 05 Mirza
   m_EditorClassIdentifier: 
-  studentName: Georg Fischinger
-  eyeColor: {r: 0.58431375, g: 0.24705882, b: 0, a: 0}
-  studentImage: {fileID: 21300000, guid: 3288a1b36d0c4d04db29c93b4e4e9729, type: 3}
-  studentClip: {fileID: 8300000, guid: cdf7ebd5799b08944b4e01505fcb1bc1, type: 3}
+  studentName: Mirza Dzinic
+  eyeColor: {r: 0, g: 0, b: 0, a: 0}
+  studentImage: {fileID: 21300000, guid: efd52172e7623b84da2644380fe1954d, type: 3}
+  studentClip: {fileID: 8300000, guid: ee87eba91889139439bada7031e1fc99, type: 3}

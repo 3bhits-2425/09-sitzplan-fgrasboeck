@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddbf00c30060be640b4f7b67f0f60f1d, type: 3}
-  m_Name: NewStudent 5
+  m_Name: 10 Muhamed
   m_EditorClassIdentifier: 
-  studentName: 
+  studentName: Muhamed Hamzic
   eyeColor: {r: 0, g: 0, b: 0, a: 0}
-  studentImage: {fileID: 0}
-  studentClip: {fileID: 0}
+  studentImage: {fileID: 21300000, guid: b1cfa64661621bb46918d95126faa632, type: 3}
+  studentClip: {fileID: 8300000, guid: 2ddb77ee3c43d374bbbee79772cbc264, type: 3}
