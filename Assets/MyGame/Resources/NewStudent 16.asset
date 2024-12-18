@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddbf00c30060be640b4f7b67f0f60f1d, type: 3}
-  m_Name: Max
+  m_Name: NewStudent 16
   m_EditorClassIdentifier: 
-  studentName: Max Mustermann
-  eyeColor: {r: 0, g: 0.19309068, b: 1, a: 0}
-  studentImage: {fileID: 21300000, guid: d875f402fa4ef6d47bfcf958923364d9, type: 3}
-  studentClip: {fileID: 8300000, guid: a37e3170f7a67824482dc43ad997ff5a, type: 3}
+  studentName: 
+  eyeColor: {r: 0, g: 0, b: 0, a: 0}
+  studentImage: {fileID: 0}
+  studentClip: {fileID: 0}
